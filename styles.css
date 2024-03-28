@@ -16,6 +16,16 @@ body {
   vertical-align: top; /* Add this line to align images at the top */
 }
 
+.title {
+  position: absolute;
+  top: 15px;
+  left: 50%; /* Center the container horizontally */
+  transform: translateX(-50%); /* Adjust to center the container */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .buttons-container {
   position: absolute;
   bottom: 25px;
